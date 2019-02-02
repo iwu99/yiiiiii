@@ -1,0 +1,123 @@
+/*p{
+  display: block;
+  font-family: 'Biryani', sans-serif;
+  font-size: 1em;
+  position: absolute;
+  width: auto;
+  align-content:center;
+  margin-top:11vw;
+  margin-left: 2vw;
+  margin-bottom: 6vw;
+}
+b{
+  color: red;
+}*/
+body{
+  background-color:rgb(242,238,227);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows:27vw 20vw;
+}
+.imageback{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+}
+
+
+.text{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vw;
+}
+.textone{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 2em;
+}
+.texttwo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 1em;
+}
+
+.imageback {
+display: grid;
+justify-content: flex-end;;
+}
+.child {
+  width: 50vw;
+  height: 27vw;
+  background: rgb(242,238,227);
+
+  display: grid;
+  grid-template-columns: repeat(10, 4vw);
+  grid-template-rows:    repeat(7, 4vw);
+   padding: 25px;
+    grid-row-gap: 8px;
+    grid-column-gap: 0px;
+  -webkit-transform: translateX(20vw,0vw);
+}
+
+
+.red{
+  background-color:darkred;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.grey1{
+  background-color: rgb(134,129,133);
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.grey2{
+  background-color:rgb(134,129,133);
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.black1{
+  background-color:black;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.black2{
+  background-color:black;
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.yellow{
+  background-color: rgb(207, 180, 76);
+  grid-column-start: 12;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.blue{
+  background-color: rgb(46, 78, 134);
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
